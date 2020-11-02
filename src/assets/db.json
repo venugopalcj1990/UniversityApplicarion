@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "venu",
+      "password": "venu"
+    },
+    {
+      "id": 2,
+      "username": "andi",
+      "password": "andi"
+    },
+    {
+      "id": 3,
+      "username": "kusuma",
+      "password": "kusuma"
+    },
+    {
+      "id": 4,
+      "username": "killer",
+      "password": "killer"
+    },
+    {
+      "id": 5,
+      "username": "danger",
+      "password": "danger"
+    },
+    {
+      "username": "venu",
+      "password": "venu",
+      "id": 6
+    }
+  ]
+}

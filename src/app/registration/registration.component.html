@@ -1,0 +1,35 @@
+<form
+  class="example-form"
+  #userRegForm="ngForm"
+  (ngSubmit)="RegisterUser(userRegForm.value)"
+>
+  <mat-form-field class="example-full-width">
+    <input
+      matInput
+      type="text"
+      placeholder="username"
+      value="username"
+      name="username"
+      [(ngModel)]="username"
+      required
+    />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input
+      matInput
+      type="text"
+      placeholder="password"
+      value="password"
+      name="password"
+      [(ngModel)]="password"
+      required
+    />
+  </mat-form-field>
+  <br />
+  <button type="submit" id="registeruser" mat-raised-button color="primary">
+    Register
+  </button>
+</form>
+
+{{ errMessage }}
