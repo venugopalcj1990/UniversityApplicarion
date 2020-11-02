@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "university-app"
+  "defaultProject": "university-app",
+  "cli": {
+    "analytics": false
+  }
 }
